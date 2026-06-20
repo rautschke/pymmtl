@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# Vendored solver build artifacts
+csrc/build/
+csrc/bin/
+
+# Solver run outputs
+*.result
+*.result_field_plot_data
+*.dump
+nmmtl.dump
+*.hspice-w.rlgc
+
+# keep the golden references under tests/
+!tests/golden/*.result

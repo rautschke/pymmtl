@@ -1,0 +1,168 @@
+
+2026 06 20 12:04:33 NMMTL_2DLF
+
+File = /tmp/tmp.xhvfrtxyMR/example-microstrip-5
+Number of Signal Lines  =   5
+Number of Ground Planes =   1
+Number of Ground Wires  =   0
+Coupling Length =   0.10000 meters
+Rise Time =   400.0000 picoseconds
+Contour (conductor) segments [cseg] = 10
+Ground Plane/Dielectric segments [dseg] = 10
+Conductivity c1R4 = 5 siemens/meter
+Conductivity c1R3 = 5 siemens/meter
+Conductivity c1R2 = 5 siemens/meter
+Conductivity c1R1 = 5 siemens/meter
+Conductivity c1R0 = 5 siemens/meter
+Note: minimum frequency for surface current assumptions is 562895464680.655029 MHz.
+Mutual and Self Electrostatic Induction:
+B(Active Signal , Passive Signal) Farads/Meter
+B( ::c1R4 , ::c1R4 )=   6.6077958e-11
+B( ::c1R4 , ::c1R3 )=  -2.8479347e-11
+B( ::c1R4 , ::c1R2 )=  -3.7281841e-12
+B( ::c1R4 , ::c1R1 )=  -1.1555950e-12
+B( ::c1R4 , ::c1R0 )=  -6.1411369e-13
+B( ::c1R3 , ::c1R4 )=  -2.8091373e-11
+B( ::c1R3 , ::c1R3 )=   7.9405588e-11
+B( ::c1R3 , ::c1R2 )=  -2.6889631e-11
+B( ::c1R3 , ::c1R1 )=  -3.2740880e-12
+B( ::c1R3 , ::c1R0 )=  -1.1543924e-12
+B( ::c1R2 , ::c1R4 )=  -3.7026391e-12
+B( ::c1R2 , ::c1R3 )=  -2.6508091e-11
+B( ::c1R2 , ::c1R2 )=   7.9600094e-11
+B( ::c1R2 , ::c1R1 )=  -2.6889353e-11
+B( ::c1R2 , ::c1R0 )=  -3.7209240e-12
+B( ::c1R1 , ::c1R4 )=  -1.1521567e-12
+B( ::c1R1 , ::c1R3 )=  -3.2468816e-12
+B( ::c1R1 , ::c1R2 )=  -2.6506892e-11
+B( ::c1R1 , ::c1R1 )=   7.9408636e-11
+B( ::c1R1 , ::c1R0 )=  -2.8441918e-11
+B( ::c1R0 , ::c1R4 )=  -6.1534046e-13
+B( ::c1R0 , ::c1R3 )=  -1.1499647e-12
+B( ::c1R0 , ::c1R2 )=  -3.6997728e-12
+B( ::c1R0 , ::c1R1 )=  -2.8090558e-11
+B( ::c1R0 , ::c1R0 )=   6.6211054e-11
+
+Mutual and Self Inductance:
+L(Active Signal , Passive Signal) Henrys/Meter
+L( ::c1R4 , ::c1R4 )=   6.1339305e-07
+L( ::c1R4 , ::c1R3 )=   3.3058991e-07
+L( ::c1R4 , ::c1R2 )=   2.1427201e-07
+L( ::c1R4 , ::c1R1 )=   1.4924921e-07
+L( ::c1R4 , ::c1R0 )=   1.0956559e-07
+L( ::c1R3 , ::c1R4 )=   3.3065720e-07
+L( ::c1R3 , ::c1R3 )=   5.9955520e-07
+L( ::c1R3 , ::c1R2 )=   3.2420767e-07
+L( ::c1R3 , ::c1R1 )=   2.1137040e-07
+L( ::c1R3 , ::c1R0 )=   1.4927761e-07
+L( ::c1R2 , ::c1R4 )=   2.1434482e-07
+L( ::c1R2 , ::c1R3 )=   3.2422498e-07
+L( ::c1R2 , ::c1R2 )=   5.9719907e-07
+L( ::c1R2 , ::c1R1 )=   3.2421108e-07
+L( ::c1R2 , ::c1R0 )=   2.1431156e-07
+L( ::c1R1 , ::c1R4 )=   1.4931480e-07
+L( ::c1R1 , ::c1R3 )=   2.1139226e-07
+L( ::c1R1 , ::c1R2 )=   3.2421610e-07
+L( ::c1R1 , ::c1R1 )=   5.9954960e-07
+L( ::c1R1 , ::c1R0 )=   3.3063106e-07
+L( ::c1R0 , ::c1R4 )=   1.0960708e-07
+L( ::c1R0 , ::c1R3 )=   1.4927983e-07
+L( ::c1R0 , ::c1R2 )=   2.1429279e-07
+L( ::c1R0 , ::c1R1 )=   3.3059718e-07
+L( ::c1R0 , ::c1R0 )=   6.1337930e-07
+
+Asymmetry Ratios:
+
+  Asymmetry ratio for inductance matrix:
+     0.043952% (max), 0.017388% (average)
+
+**********
+  Asymmetry ratio for electrostatic induction matrix:
+     1.422350% (max), 0.840436% (average).
+  (Note values greater than 1% are a probable indication of too few elements.
+  Try adjusting CSEG and DSEG attributes.)
+**********
+
+Characteristic Impedance (Ohms):
+For Signal Line ::c1R4= 96.3476
+For Signal Line ::c1R3= 86.8939
+For Signal Line ::c1R2= 86.6169
+For Signal Line ::c1R1= 86.8918
+For Signal Line ::c1R0= 96.2497
+
+Effective Dielectric Constant:
+For Signal Line ::c1R4= 2.53809
+For Signal Line ::c1R3= 2.40225
+For Signal Line ::c1R2= 2.40134
+For Signal Line ::c1R1= 2.40234
+For Signal Line ::c1R0= 2.54318
+
+Propagation Velocity (meters/second):
+For Signal Line ::c1R4=   1.8817715e+08
+For Signal Line ::c1R3=   1.9342458e+08
+For Signal Line ::c1R2=   1.9346106e+08
+For Signal Line ::c1R1=   1.9342090e+08
+For Signal Line ::c1R0=   1.8798897e+08
+
+Propagation Delay (seconds/meter):
+For Signal Line ::c1R4=   5.3141414e-09
+For Signal Line ::c1R3=   5.1699738e-09
+For Signal Line ::c1R2=   5.1689989e-09
+For Signal Line ::c1R1=   5.1700721e-09
+For Signal Line ::c1R0=   5.3194610e-09
+
+Rdc:
+Rdc(Active Signal , Passive Signal) Ohms/Meter
+Rdc( ::c1R4 , ::c1R4 )=   5.5555556e+09
+Rdc( ::c1R4 , ::c1R3 )=   0.0000000e+00
+Rdc( ::c1R4 , ::c1R2 )=   0.0000000e+00
+Rdc( ::c1R4 , ::c1R1 )=   0.0000000e+00
+Rdc( ::c1R4 , ::c1R0 )=   0.0000000e+00
+Rdc( ::c1R3 , ::c1R4 )=   0.0000000e+00
+Rdc( ::c1R3 , ::c1R3 )=   5.5555556e+09
+Rdc( ::c1R3 , ::c1R2 )=   0.0000000e+00
+Rdc( ::c1R3 , ::c1R1 )=   0.0000000e+00
+Rdc( ::c1R3 , ::c1R0 )=   0.0000000e+00
+Rdc( ::c1R2 , ::c1R4 )=   0.0000000e+00
+Rdc( ::c1R2 , ::c1R3 )=   0.0000000e+00
+Rdc( ::c1R2 , ::c1R2 )=   5.5555556e+09
+Rdc( ::c1R2 , ::c1R1 )=   0.0000000e+00
+Rdc( ::c1R2 , ::c1R0 )=   0.0000000e+00
+Rdc( ::c1R1 , ::c1R4 )=   0.0000000e+00
+Rdc( ::c1R1 , ::c1R3 )=   0.0000000e+00
+Rdc( ::c1R1 , ::c1R2 )=   0.0000000e+00
+Rdc( ::c1R1 , ::c1R1 )=   5.5555556e+09
+Rdc( ::c1R1 , ::c1R0 )=   0.0000000e+00
+Rdc( ::c1R0 , ::c1R4 )=   0.0000000e+00
+Rdc( ::c1R0 , ::c1R3 )=   0.0000000e+00
+Rdc( ::c1R0 , ::c1R2 )=   0.0000000e+00
+Rdc( ::c1R0 , ::c1R1 )=   0.0000000e+00
+Rdc( ::c1R0 , ::c1R0 )=   5.5555556e+09
+
+Far-End (Forward) Cross Talk:
+FXT(Active Signal, Passive Signal)
+FXT( ::c1R4 , ::c1R3 )= -1.30433e-01 =   -17.69224 dB
+FXT( ::c1R4 , ::c1R2 )= -2.51012e-01 =   -12.00612 dB
+FXT( ::c1R4 , ::c1R1 )= -1.90810e-01 =   -14.38799 dB
+FXT( ::c1R4 , ::c1R0 )= -1.34868e-01 =   -17.40183 dB
+FXT( ::c1R3 , ::c1R2 )= -1.79690e-01 =   -14.90953 dB
+FXT( ::c1R3 , ::c1R1 )= -2.68833e-01 =   -11.41035 dB
+FXT( ::c1R3 , ::c1R0 )= -1.90895e-01 =   -14.38411 dB
+FXT( ::c1R2 , ::c1R1 )= -1.79699e-01 =   -14.90908 dB
+FXT( ::c1R2 , ::c1R0 )= -2.51144e-01 =   -12.00155 dB
+FXT( ::c1R1 , ::c1R0 )= -1.30763e-01 =   -17.67031 dB
+
+Near-End (Backward) Cross Talk:
+BXT(Active Signal, Passive Signal)
+BXT( ::c1R4 , ::c1R3 )= 2.33264e-01 =   -12.64303 dB
+BXT( ::c1R4 , ::c1R2 )= 1.01300e-01 =   -19.88779 dB
+BXT( ::c1R4 , ::c1R1 )= 6.55310e-02 =   -23.67106 dB
+BXT( ::c1R4 , ::c1R0 )= 4.69987e-02 =   -26.55828 dB
+BXT( ::c1R3 , ::c1R2 )= 2.18816e-01 =   -13.19841 dB
+BXT( ::c1R3 , ::c1R1 )= 9.83681e-02 =   -20.14291 dB
+BXT( ::c1R3 , ::c1R0 )= 6.55056e-02 =   -23.67444 dB
+BXT( ::c1R2 , ::c1R1 )= 2.18808e-01 =   -13.19874 dB
+BXT( ::c1R2 , ::c1R0 )= 1.01257e-01 =   -19.89150 dB
+BXT( ::c1R1 , ::c1R0 )= 2.33140e-01 =   -12.64767 dB
+
+NOTE: Cross talk results assume there are no reflections.

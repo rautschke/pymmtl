@@ -1,0 +1,81 @@
+
+2026 06 20 12:04:33 NMMTL_2DLF
+
+File = /tmp/tmp.xhvfrtxyMR/test1
+Number of Signal Lines  =   2
+Number of Ground Planes =   1
+Number of Ground Wires  =   0
+Coupling Length =   0.02540 meters
+Rise Time =    25.0000 picoseconds
+Contour (conductor) segments [cseg] = 45
+Ground Plane/Dielectric segments [dseg] = 45
+Conductivity Rect8R1 = 3e+07 siemens/meter
+Conductivity Rect8R0 = 3e+07 siemens/meter
+Note: minimum frequency for surface current assumptions is 668.721721 MHz.
+Mutual and Self Electrostatic Induction:
+B(Active Signal , Passive Signal) Farads/Meter
+B( ::Rect8R1 , ::Rect8R1 )=   1.1030980e-10
+B( ::Rect8R1 , ::Rect8R0 )=  -1.8175133e-12
+B( ::Rect8R0 , ::Rect8R1 )=  -1.8040072e-12
+B( ::Rect8R0 , ::Rect8R0 )=   1.1030248e-10
+
+Mutual and Self Inductance:
+L(Active Signal , Passive Signal) Henrys/Meter
+L( ::Rect8R1 , ::Rect8R1 )=   2.9683361e-07
+L( ::Rect8R1 , ::Rect8R0 )=   1.7754988e-08
+L( ::Rect8R0 , ::Rect8R1 )=   1.7756129e-08
+L( ::Rect8R0 , ::Rect8R0 )=   2.9683346e-07
+
+Asymmetry Ratios:
+
+  Asymmetry ratio for inductance matrix:
+     0.006427% (max), 0.006427% (average)
+
+  Asymmetry ratio for electrostatic induction matrix:
+     0.743110% (max), 0.743110% (average).
+
+
+Characteristic Impedance (Ohms):
+For Signal Line ::Rect8R1= 51.874
+For Signal Line ::Rect8R0= 51.8757
+
+Characteristic Impedance Odd/Even (Ohms):
+  odd= 49.8893
+ even= 53.8483
+
+Effective Dielectric Constant:
+For Signal Line ::Rect8R1= 2.93232
+For Signal Line ::Rect8R0= 2.93213
+
+Propagation Velocity (meters/second):
+For Signal Line ::Rect8R1=   1.7507122e+08
+For Signal Line ::Rect8R0=   1.7507707e+08
+
+Propagation Velocity Odd/Even (meters/second):
+  odd= 1.78764e+08
+ even= 1.71171e+08
+
+Propagation Delay (seconds/meter):
+For Signal Line ::Rect8R1=   5.7119611e-09
+For Signal Line ::Rect8R0=   5.7117701e-09
+
+Propagation Delay Odd/Even (seconds/meter):
+  odd= 5.59396e-09
+ even= 5.84213e-09
+
+Rdc:
+Rdc(Active Signal , Passive Signal) Ohms/Meter
+Rdc( ::Rect8R1 , ::Rect8R1 )=   2.0502687e+00
+Rdc( ::Rect8R1 , ::Rect8R0 )=   0.0000000e+00
+Rdc( ::Rect8R0 , ::Rect8R1 )=   0.0000000e+00
+Rdc( ::Rect8R0 , ::Rect8R0 )=   2.0502687e+00
+
+Far-End (Forward) Cross Talk:
+FXT(Active Signal, Passive Signal)
+FXT( ::Rect8R1 , ::Rect8R0 )= -1.26342e-01 =   -17.96902 dB
+
+Near-End (Backward) Cross Talk:
+BXT(Active Signal, Passive Signal)
+BXT( ::Rect8R1 , ::Rect8R0 )= 1.90433e-02 =   -34.40518 dB
+
+NOTE: Cross talk results assume there are no reflections.

@@ -1,0 +1,93 @@
+
+2026 06 20 12:04:33 NMMTL_2DLF
+
+File = /tmp/tmp.xhvfrtxyMR/9-7-00
+Number of Signal Lines  =   3
+Number of Ground Planes =   2
+Number of Ground Wires  =   0
+Coupling Length =   0.04000 meters
+Rise Time =   400.0000 picoseconds
+Contour (conductor) segments [cseg] = 20
+Ground Plane/Dielectric segments [dseg] = 40
+Conductivity Trap1T2 = 4.25e+07 siemens/meter
+Conductivity Trap1T1 = 4.25e+07 siemens/meter
+Conductivity Trap1T0 = 4.25e+07 siemens/meter
+Note: minimum frequency for surface current assumptions is 23841.278504 MHz.
+Mutual and Self Electrostatic Induction:
+B(Active Signal , Passive Signal) Farads/Meter
+B( ::Trap1T2 , ::Trap1T2 )=   1.1551623e-10
+B( ::Trap1T2 , ::Trap1T1 )=  -4.1807073e-13
+B( ::Trap1T2 , ::Trap1T0 )=  -2.2390956e-16
+B( ::Trap1T1 , ::Trap1T2 )=  -4.1818618e-13
+B( ::Trap1T1 , ::Trap1T1 )=   1.1551836e-10
+B( ::Trap1T1 , ::Trap1T0 )=  -4.1807071e-13
+B( ::Trap1T0 , ::Trap1T2 )=  -2.2411873e-16
+B( ::Trap1T0 , ::Trap1T1 )=  -4.1818620e-13
+B( ::Trap1T0 , ::Trap1T0 )=   1.1551623e-10
+
+Mutual and Self Inductance:
+L(Active Signal , Passive Signal) Henrys/Meter
+L( ::Trap1T2 , ::Trap1T2 )=   3.0822740e-07
+L( ::Trap1T2 , ::Trap1T1 )=   1.1155178e-09
+L( ::Trap1T2 , ::Trap1T0 )=   4.6346766e-12
+L( ::Trap1T1 , ::Trap1T2 )=   1.1158259e-09
+L( ::Trap1T1 , ::Trap1T1 )=   3.0822576e-07
+L( ::Trap1T1 , ::Trap1T0 )=   1.1155178e-09
+L( ::Trap1T0 , ::Trap1T2 )=   4.6374652e-12
+L( ::Trap1T0 , ::Trap1T1 )=   1.1158259e-09
+L( ::Trap1T0 , ::Trap1T0 )=   3.0822740e-07
+
+Asymmetry Ratios:
+
+  Asymmetry ratio for inductance matrix:
+     0.060169% (max), 0.038470% (average)
+
+  Asymmetry ratio for electrostatic induction matrix:
+     0.093417% (max), 0.049552% (average).
+
+
+Characteristic Impedance (Ohms):
+For Signal Line ::Trap1T2= 51.6552
+For Signal Line ::Trap1T1= 51.6546
+For Signal Line ::Trap1T0= 51.6552
+
+Effective Dielectric Constant:
+For Signal Line ::Trap1T2= 3.2
+For Signal Line ::Trap1T1= 3.2
+For Signal Line ::Trap1T0= 3.2
+
+Propagation Velocity (meters/second):
+For Signal Line ::Trap1T2=   1.6758908e+08
+For Signal Line ::Trap1T1=   1.6758908e+08
+For Signal Line ::Trap1T0=   1.6758908e+08
+
+Propagation Delay (seconds/meter):
+For Signal Line ::Trap1T2=   5.9669759e-09
+For Signal Line ::Trap1T1=   5.9669759e-09
+For Signal Line ::Trap1T0=   5.9669759e-09
+
+Rdc:
+Rdc(Active Signal , Passive Signal) Ohms/Meter
+Rdc( ::Trap1T2 , ::Trap1T2 )=   2.4767802e+02
+Rdc( ::Trap1T2 , ::Trap1T1 )=   0.0000000e+00
+Rdc( ::Trap1T2 , ::Trap1T0 )=   0.0000000e+00
+Rdc( ::Trap1T1 , ::Trap1T2 )=   0.0000000e+00
+Rdc( ::Trap1T1 , ::Trap1T1 )=   2.4767802e+02
+Rdc( ::Trap1T1 , ::Trap1T0 )=   0.0000000e+00
+Rdc( ::Trap1T0 , ::Trap1T2 )=   0.0000000e+00
+Rdc( ::Trap1T0 , ::Trap1T1 )=   0.0000000e+00
+Rdc( ::Trap1T0 , ::Trap1T0 )=   2.4767802e+02
+
+Far-End (Forward) Cross Talk:
+FXT(Active Signal, Passive Signal)
+FXT( ::Trap1T2 , ::Trap1T1 )= -9.17033e-09 =  -160.75230 dB
+FXT( ::Trap1T2 , ::Trap1T0 )= -3.91002e-06 =  -108.15642 dB
+FXT( ::Trap1T1 , ::Trap1T0 )= -9.17033e-09 =  -160.75230 dB
+
+Near-End (Backward) Cross Talk:
+BXT(Active Signal, Passive Signal)
+BXT( ::Trap1T2 , ::Trap1T1 )= 1.81007e-03 =   -54.84611 dB
+BXT( ::Trap1T2 , ::Trap1T0 )= 4.24644e-06 =  -107.43951 dB
+BXT( ::Trap1T1 , ::Trap1T0 )= 1.81007e-03 =   -54.84611 dB
+
+NOTE: Cross talk results assume there are no reflections.

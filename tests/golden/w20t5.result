@@ -1,0 +1,168 @@
+
+2026 06 20 12:04:34 NMMTL_2DLF
+
+File = /tmp/tmp.xhvfrtxyMR/w20t5
+Number of Signal Lines  =   5
+Number of Ground Planes =   1
+Number of Ground Wires  =   0
+Coupling Length =   0.02540 meters
+Rise Time = 3000000000.0000 picoseconds
+Contour (conductor) segments [cseg] = 10
+Ground Plane/Dielectric segments [dseg] = 10
+Conductivity Trap1T4 = 4.25e+07 siemens/meter
+Conductivity Trap1T3 = 4.25e+07 siemens/meter
+Conductivity Trap1T2 = 4.25e+07 siemens/meter
+Conductivity Trap1T1 = 4.25e+07 siemens/meter
+Conductivity Trap1T0 = 4.25e+07 siemens/meter
+Note: minimum frequency for surface current assumptions is 23841.278504 MHz.
+Mutual and Self Electrostatic Induction:
+B(Active Signal , Passive Signal) Farads/Meter
+B( ::Trap1T4 , ::Trap1T4 )=   7.0956021e-11
+B( ::Trap1T4 , ::Trap1T3 )=  -4.8014640e-12
+B( ::Trap1T4 , ::Trap1T2 )=  -4.6529249e-13
+B( ::Trap1T4 , ::Trap1T1 )=  -2.0225377e-13
+B( ::Trap1T4 , ::Trap1T0 )=  -1.0638116e-13
+B( ::Trap1T3 , ::Trap1T4 )=  -4.8022004e-12
+B( ::Trap1T3 , ::Trap1T3 )=   7.1740828e-11
+B( ::Trap1T3 , ::Trap1T2 )=  -4.9322419e-12
+B( ::Trap1T3 , ::Trap1T1 )=  -5.7977964e-13
+B( ::Trap1T3 , ::Trap1T0 )=  -1.9440701e-13
+B( ::Trap1T2 , ::Trap1T4 )=  -4.5855987e-13
+B( ::Trap1T2 , ::Trap1T3 )=  -4.7803751e-12
+B( ::Trap1T2 , ::Trap1T2 )=   7.0787196e-11
+B( ::Trap1T2 , ::Trap1T1 )=  -4.7812653e-12
+B( ::Trap1T2 , ::Trap1T0 )=  -4.5864776e-13
+B( ::Trap1T1 , ::Trap1T4 )=  -1.9436684e-13
+B( ::Trap1T1 , ::Trap1T3 )=  -5.7970935e-13
+B( ::Trap1T1 , ::Trap1T2 )=  -4.9320097e-12
+B( ::Trap1T1 , ::Trap1T1 )=   7.1740362e-11
+B( ::Trap1T1 , ::Trap1T0 )=  -4.8021797e-12
+B( ::Trap1T0 , ::Trap1T4 )=  -1.0637303e-13
+B( ::Trap1T0 , ::Trap1T3 )=  -2.0225738e-13
+B( ::Trap1T0 , ::Trap1T2 )=  -4.6525174e-13
+B( ::Trap1T0 , ::Trap1T1 )=  -4.8007021e-12
+B( ::Trap1T0 , ::Trap1T0 )=   7.0955978e-11
+
+Mutual and Self Inductance:
+L(Active Signal , Passive Signal) Henrys/Meter
+L( ::Trap1T4 , ::Trap1T4 )=   4.6228613e-07
+L( ::Trap1T4 , ::Trap1T3 )=   3.9031950e-08
+L( ::Trap1T4 , ::Trap1T2 )=   1.1170281e-08
+L( ::Trap1T4 , ::Trap1T1 )=   5.0629106e-09
+L( ::Trap1T4 , ::Trap1T0 )=   2.8693598e-09
+L( ::Trap1T3 , ::Trap1T4 )=   3.9031438e-08
+L( ::Trap1T3 , ::Trap1T3 )=   4.6203862e-07
+L( ::Trap1T3 , ::Trap1T2 )=   3.8977611e-08
+L( ::Trap1T3 , ::Trap1T1 )=   1.1151556e-08
+L( ::Trap1T3 , ::Trap1T0 )=   5.0630484e-09
+L( ::Trap1T2 , ::Trap1T4 )=   1.1169424e-08
+L( ::Trap1T2 , ::Trap1T3 )=   3.8976964e-08
+L( ::Trap1T2 , ::Trap1T2 )=   4.6202710e-07
+L( ::Trap1T2 , ::Trap1T1 )=   3.8977641e-08
+L( ::Trap1T2 , ::Trap1T0 )=   1.1170537e-08
+L( ::Trap1T1 , ::Trap1T4 )=   5.0625177e-09
+L( ::Trap1T1 , ::Trap1T3 )=   1.1150610e-08
+L( ::Trap1T1 , ::Trap1T2 )=   3.8976974e-08
+L( ::Trap1T1 , ::Trap1T1 )=   4.6203868e-07
+L( ::Trap1T1 , ::Trap1T0 )=   3.9032464e-08
+L( ::Trap1T0 , ::Trap1T4 )=   2.8690813e-09
+L( ::Trap1T0 , ::Trap1T3 )=   5.0624737e-09
+L( ::Trap1T0 , ::Trap1T2 )=   1.1169368e-08
+L( ::Trap1T0 , ::Trap1T1 )=   3.9031420e-08
+L( ::Trap1T0 , ::Trap1T0 )=   4.6228713e-07
+
+Asymmetry Ratios:
+
+  Asymmetry ratio for inductance matrix:
+     0.011349% (max), 0.006280% (average)
+
+**********
+  Asymmetry ratio for electrostatic induction matrix:
+     4.038108% (max), 1.712222% (average).
+  (Note values greater than 1% are a probable indication of too few elements.
+  Try adjusting CSEG and DSEG attributes.)
+**********
+
+Characteristic Impedance (Ohms):
+For Signal Line ::Trap1T4= 80.7162
+For Signal Line ::Trap1T3= 80.252
+For Signal Line ::Trap1T2= 80.7898
+For Signal Line ::Trap1T1= 80.2523
+For Signal Line ::Trap1T0= 80.7163
+
+Effective Dielectric Constant:
+For Signal Line ::Trap1T4= 2.92598
+For Signal Line ::Trap1T3= 2.93671
+For Signal Line ::Trap1T2= 2.89701
+For Signal Line ::Trap1T1= 2.93669
+For Signal Line ::Trap1T0= 2.92599
+
+Propagation Velocity (meters/second):
+For Signal Line ::Trap1T4=   1.7526077e+08
+For Signal Line ::Trap1T3=   1.7494038e+08
+For Signal Line ::Trap1T2=   1.7613493e+08
+For Signal Line ::Trap1T1=   1.7494094e+08
+For Signal Line ::Trap1T0=   1.7526064e+08
+
+Propagation Delay (seconds/meter):
+For Signal Line ::Trap1T4=   5.7057834e-09
+For Signal Line ::Trap1T3=   5.7162333e-09
+For Signal Line ::Trap1T2=   5.6774655e-09
+For Signal Line ::Trap1T1=   5.7162149e-09
+For Signal Line ::Trap1T0=   5.7057876e-09
+
+Rdc:
+Rdc(Active Signal , Passive Signal) Ohms/Meter
+Rdc( ::Trap1T4 , ::Trap1T4 )=   2.4767802e+02
+Rdc( ::Trap1T4 , ::Trap1T3 )=   0.0000000e+00
+Rdc( ::Trap1T4 , ::Trap1T2 )=   0.0000000e+00
+Rdc( ::Trap1T4 , ::Trap1T1 )=   0.0000000e+00
+Rdc( ::Trap1T4 , ::Trap1T0 )=   0.0000000e+00
+Rdc( ::Trap1T3 , ::Trap1T4 )=   0.0000000e+00
+Rdc( ::Trap1T3 , ::Trap1T3 )=   2.4767802e+02
+Rdc( ::Trap1T3 , ::Trap1T2 )=   0.0000000e+00
+Rdc( ::Trap1T3 , ::Trap1T1 )=   0.0000000e+00
+Rdc( ::Trap1T3 , ::Trap1T0 )=   0.0000000e+00
+Rdc( ::Trap1T2 , ::Trap1T4 )=   0.0000000e+00
+Rdc( ::Trap1T2 , ::Trap1T3 )=   0.0000000e+00
+Rdc( ::Trap1T2 , ::Trap1T2 )=   2.4767802e+02
+Rdc( ::Trap1T2 , ::Trap1T1 )=   0.0000000e+00
+Rdc( ::Trap1T2 , ::Trap1T0 )=   0.0000000e+00
+Rdc( ::Trap1T1 , ::Trap1T4 )=   0.0000000e+00
+Rdc( ::Trap1T1 , ::Trap1T3 )=   0.0000000e+00
+Rdc( ::Trap1T1 , ::Trap1T2 )=   0.0000000e+00
+Rdc( ::Trap1T1 , ::Trap1T1 )=   2.4767802e+02
+Rdc( ::Trap1T1 , ::Trap1T0 )=   0.0000000e+00
+Rdc( ::Trap1T0 , ::Trap1T4 )=   0.0000000e+00
+Rdc( ::Trap1T0 , ::Trap1T3 )=   0.0000000e+00
+Rdc( ::Trap1T0 , ::Trap1T2 )=   0.0000000e+00
+Rdc( ::Trap1T0 , ::Trap1T1 )=   0.0000000e+00
+Rdc( ::Trap1T0 , ::Trap1T0 )=   2.4767802e+02
+
+Far-End (Forward) Cross Talk:
+FXT(Active Signal, Passive Signal)
+FXT( ::Trap1T4 , ::Trap1T3 )= -4.16818e-10 =  -187.60106 dB
+FXT( ::Trap1T4 , ::Trap1T2 )= -4.28777e-10 =  -187.35538 dB
+FXT( ::Trap1T4 , ::Trap1T1 )= -2.00057e-10 =  -193.97692 dB
+FXT( ::Trap1T4 , ::Trap1T0 )= -1.14127e-10 =  -198.85220 dB
+FXT( ::Trap1T3 , ::Trap1T2 )= -4.19714e-10 =  -187.54093 dB
+FXT( ::Trap1T3 , ::Trap1T1 )= -3.91252e-10 =  -188.15087 dB
+FXT( ::Trap1T3 , ::Trap1T0 )= -1.97367e-10 =  -194.09452 dB
+FXT( ::Trap1T2 , ::Trap1T1 )= -3.68021e-10 =  -188.68256 dB
+FXT( ::Trap1T2 , ::Trap1T0 )= -4.26486e-10 =  -187.40191 dB
+FXT( ::Trap1T1 , ::Trap1T0 )= -4.17319e-10 =  -187.59063 dB
+
+Near-End (Backward) Cross Talk:
+BXT(Active Signal, Passive Signal)
+BXT( ::Trap1T4 , ::Trap1T3 )= 3.66572e-09 =  -168.71682 dB
+BXT( ::Trap1T4 , ::Trap1T2 )= 7.40053e-10 =  -182.61474 dB
+BXT( ::Trap1T4 , ::Trap1T1 )= 3.30390e-10 =  -189.61945 dB
+BXT( ::Trap1T4 , ::Trap1T0 )= 1.86121e-10 =  -194.60412 dB
+BXT( ::Trap1T3 , ::Trap1T2 )= 3.66468e-09 =  -168.71928 dB
+BXT( ::Trap1T3 , ::Trap1T1 )= 7.79541e-10 =  -182.16322 dB
+BXT( ::Trap1T3 , ::Trap1T0 )= 3.33669e-10 =  -189.53368 dB
+BXT( ::Trap1T2 , ::Trap1T1 )= 3.69097e-09 =  -168.65718 dB
+BXT( ::Trap1T2 , ::Trap1T0 )= 7.38646e-10 =  -182.63127 dB
+BXT( ::Trap1T1 , ::Trap1T0 )= 3.67191e-09 =  -168.70216 dB
+
+NOTE: Cross talk results assume there are no reflections.

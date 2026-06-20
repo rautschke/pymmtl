@@ -1,0 +1,47 @@
+Dump file of /tmp/tmp.xhvfrtxyMR/example-stripline-2.dump
+Warning: lossTangent not used in this simulation!
+Input CouplingLength = 0.100000
+Input RiseTime = 0.000000
+Input Default Units: mils
+CouplingLength = 0.1
+Total width: 0.0008128
+Conductivity c1R0 = 5e+07 siemens/meter
+Conductivity c1R1 = 5e+07 siemens/meter
+---- Dielectrics ----
+  (-0.0008128,0.00127) - (0.0016256,0.00254)  permittivity: 4.7
+  (-0.0008128,0) - (0.0016256,0.00127)  permittivity: 4.7
+---- Conductors ----
+c1R1  (0.000508,0.00127) - (0.0008128,0.0013462)  conductivity: 5e+07  type: R
+
+c1R0  (0,0.00127) - (0.0003048,0.0013462)  conductivity: 5e+07  type: R
+
+---- GroundWires ----
+filename: /tmp/tmp.xhvfrtxyMR/example-stripline-2
+cntr_seg: 10  pln_seg: 10  coupling: 0.1
+risetime: 2e-10  conductivity: 5.8e+07
+half_min_dim: 3.81e-05  grnd_planes: 2  top_grnd_thck: 1.000000
+bot_grnd_thck: 1  num_sig: 2  num_grounds: 0
+units: 0
+88.248972 MHz is the minimum frequency for the surface current assumptions for this cross section
+34 elements and 69 nodes were generated
+  largest matrix to be inverted is 69 X 69
+Calculate LHS (assemble) matrix in free space
+calculate RHS (load) matrix for conductor 1
+Solve system of equations
+Integrate charge density
+calculate RHS (load) matrix for conductor 2
+Solve system of equations
+Integrate charge density
+  Asymmetry ratio for inductance matrix:
+     0.001385% (max), 0.001385% (average)
+Calculate LHS (assemble) matrix in dielectric
+calculate RHS (load) matrix for conductor 1
+Solve system of equations
+Integrate charge density
+calculate RHS (load) matrix for conductor 2
+Solve system of equations
+Integrate charge density
+  Asymmetry ratio for electrostatic induction matrix:
+     0.001385% (max), 0.001385% (average).
+
+MMTL is done

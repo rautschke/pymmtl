@@ -1,0 +1,76 @@
+Dump file of /tmp/tmp.xhvfrtxyMR/example-microstrip-5.dump
+Warning: lossTangent not used in this simulation!
+Input CouplingLength = 0.100000
+Input RiseTime = 0.000000
+Input Default Units: microns
+CouplingLength = 0.1
+Total width: 9.2e-05
+Conductivity c1R0 = 5 siemens/meter
+Conductivity c1R1 = 5 siemens/meter
+Conductivity c1R2 = 5 siemens/meter
+Conductivity c1R3 = 5 siemens/meter
+Conductivity c1R4 = 5 siemens/meter
+---- Dielectrics ----
+  (-9.2e-05,0) - (0.000184,5e-05)  permittivity: 4.7
+---- Conductors ----
+c1R4  (8e-05,5e-05) - (9.2e-05,5.3e-05)  conductivity: 5  type: R
+
+c1R3  (6e-05,5e-05) - (7.2e-05,5.3e-05)  conductivity: 5  type: R
+
+c1R2  (4e-05,5e-05) - (5.2e-05,5.3e-05)  conductivity: 5  type: R
+
+c1R1  (2e-05,5e-05) - (3.2e-05,5.3e-05)  conductivity: 5  type: R
+
+c1R0  (0,5e-05) - (1.2e-05,5.3e-05)  conductivity: 5  type: R
+
+---- GroundWires ----
+filename: /tmp/tmp.xhvfrtxyMR/example-microstrip-5
+cntr_seg: 10  pln_seg: 10  coupling: 0.1
+risetime: 4e-10  conductivity: 5.8e+07
+half_min_dim: 1.5e-06  grnd_planes: 1  top_grnd_thck: 1.000000
+bot_grnd_thck: 1  num_sig: 5  num_grounds: 0
+units: 0
+562895464680.655029 MHz is the minimum frequency for the surface current assumptions for this cross section
+73 elements and 152 nodes were generated
+  largest matrix to be inverted is 152 X 152
+Calculate LHS (assemble) matrix in free space
+calculate RHS (load) matrix for conductor 1
+Solve system of equations
+Integrate charge density
+calculate RHS (load) matrix for conductor 2
+Solve system of equations
+Integrate charge density
+calculate RHS (load) matrix for conductor 3
+Solve system of equations
+Integrate charge density
+calculate RHS (load) matrix for conductor 4
+Solve system of equations
+Integrate charge density
+calculate RHS (load) matrix for conductor 5
+Solve system of equations
+Integrate charge density
+  Asymmetry ratio for inductance matrix:
+     0.043952% (max), 0.017388% (average)
+Calculate LHS (assemble) matrix in dielectric
+calculate RHS (load) matrix for conductor 1
+Solve system of equations
+Integrate charge density
+calculate RHS (load) matrix for conductor 2
+Solve system of equations
+Integrate charge density
+calculate RHS (load) matrix for conductor 3
+Solve system of equations
+Integrate charge density
+calculate RHS (load) matrix for conductor 4
+Solve system of equations
+Integrate charge density
+calculate RHS (load) matrix for conductor 5
+Solve system of equations
+Integrate charge density
+**********
+  Asymmetry ratio for electrostatic induction matrix:
+     1.422350% (max), 0.840436% (average).
+  (Note values greater than 1% are a probable indication of too few elements.
+  Try adjusting CSEG and DSEG attributes.)
+**********
+MMTL is done

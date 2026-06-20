@@ -1,0 +1,37 @@
+Dump file of /tmp/tmp.xhvfrtxyMR/coplanar.dump
+Warning: lossTangent not used in this simulation!
+Input CouplingLength = 0.025400
+Input RiseTime = 0.000000
+Input Default Units: mils
+CouplingLength = 0.0254
+Total width: 0.0004191
+Conductivity condR0 = 3e+07 siemens/meter
+---- Dielectrics ----
+  (-0.0004191,0) - (0.0008382,0.00024892)  permittivity: 20
+---- Conductors ----
+condR0  (0.0001524,0.00024892) - (0.0002667,0.000254)  conductivity: 3e+07  type: R
+
+---- GroundWires ----
+  (0.0003048,0.00024892) - (0.0004191,0.000254)  conductivity: 0  type: R
+
+  (0,0.00024892) - (0.0001143,0.000254)  conductivity: 0  type: R
+
+filename: /tmp/tmp.xhvfrtxyMR/coplanar
+cntr_seg: 10  pln_seg: 10  coupling: 0.0254
+risetime: 2.5e-11  conductivity: 5.8e+07
+half_min_dim: 2.54e-06  grnd_planes: 1  top_grnd_thck: 1.000000
+bot_grnd_thck: 1  num_sig: 1  num_grounds: 2
+units: 0
+32719.364321 MHz is the minimum frequency for the surface current assumptions for this cross section
+52 elements and 108 nodes were generated
+  largest matrix to be inverted is 108 X 108
+Calculate LHS (assemble) matrix in free space
+calculate RHS (load) matrix for conductor 1
+Solve system of equations
+Integrate charge density
+Calculate LHS (assemble) matrix in dielectric
+calculate RHS (load) matrix for conductor 1
+Solve system of equations
+Integrate charge density
+
+MMTL is done

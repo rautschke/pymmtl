@@ -1,0 +1,81 @@
+
+2026 06 20 12:04:34 NMMTL_2DLF
+
+File = /tmp/tmp.xhvfrtxyMR/trap_test
+Number of Signal Lines  =   2
+Number of Ground Planes =   2
+Number of Ground Wires  =   0
+Coupling Length =   0.02540 meters
+Rise Time =    25.0000 picoseconds
+Contour (conductor) segments [cseg] = 10
+Ground Plane/Dielectric segments [dseg] = 10
+Conductivity Trap6T1 = 3e+07 siemens/meter
+Conductivity Trap6T0 = 3e+07 siemens/meter
+Note: minimum frequency for surface current assumptions is 1309.734573 MHz.
+Mutual and Self Electrostatic Induction:
+B(Active Signal , Passive Signal) Farads/Meter
+B( ::Trap6T1 , ::Trap6T1 )=   1.1551406e-10
+B( ::Trap6T1 , ::Trap6T0 )=  -3.8328791e-12
+B( ::Trap6T0 , ::Trap6T1 )=  -3.8296052e-12
+B( ::Trap6T0 , ::Trap6T0 )=   1.1551415e-10
+
+Mutual and Self Inductance:
+L(Active Signal , Passive Signal) Henrys/Meter
+L( ::Trap6T1 , ::Trap6T1 )=   3.8571076e-07
+L( ::Trap6T1 , ::Trap6T0 )=   1.2798283e-08
+L( ::Trap6T0 , ::Trap6T1 )=   1.2787351e-08
+L( ::Trap6T0 , ::Trap6T0 )=   3.8571046e-07
+
+Asymmetry Ratios:
+
+  Asymmetry ratio for inductance matrix:
+     0.085416% (max), 0.085416% (average)
+
+  Asymmetry ratio for electrostatic induction matrix:
+     0.085416% (max), 0.085416% (average).
+
+
+Characteristic Impedance (Ohms):
+For Signal Line ::Trap6T1= 57.7848
+For Signal Line ::Trap6T0= 57.7847
+
+Characteristic Impedance Odd/Even (Ohms):
+  odd= 55.8982
+ even= 59.735
+
+Effective Dielectric Constant:
+For Signal Line ::Trap6T1= 4
+For Signal Line ::Trap6T0= 4
+
+Propagation Velocity (meters/second):
+For Signal Line ::Trap6T1=   1.4989623e+08
+For Signal Line ::Trap6T0=   1.4989623e+08
+
+Propagation Velocity Odd/Even (meters/second):
+  odd= 1.49896e+08
+ even= 1.49896e+08
+
+Propagation Delay (seconds/meter):
+For Signal Line ::Trap6T1=   6.6712819e-09
+For Signal Line ::Trap6T0=   6.6712819e-09
+
+Propagation Delay Odd/Even (seconds/meter):
+  odd= 6.67128e-09
+ even= 6.67128e-09
+
+Rdc:
+Rdc(Active Signal , Passive Signal) Ohms/Meter
+Rdc( ::Trap6T1 , ::Trap6T1 )=   1.0763910e+01
+Rdc( ::Trap6T1 , ::Trap6T0 )=   0.0000000e+00
+Rdc( ::Trap6T0 , ::Trap6T1 )=   0.0000000e+00
+Rdc( ::Trap6T0 , ::Trap6T0 )=   1.0763910e+01
+
+Far-End (Forward) Cross Talk:
+FXT(Active Signal, Passive Signal)
+FXT( ::Trap6T1 , ::Trap6T0 )= -2.35289e-17 =  -332.56795 dB
+
+Near-End (Backward) Cross Talk:
+BXT(Active Signal, Passive Signal)
+BXT( ::Trap6T1 , ::Trap6T0 )= 1.65764e-02 =   -35.61022 dB
+
+NOTE: Cross talk results assume there are no reflections.

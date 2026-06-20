@@ -1,0 +1,44 @@
+
+2026 06 20 12:04:33 NMMTL_2DLF
+
+File = /tmp/tmp.xhvfrtxyMR/generic
+Number of Signal Lines  =   1
+Number of Ground Planes =   1
+Number of Ground Wires  =   2
+Coupling Length =   0.10000 meters
+Rise Time =    20.0000 picoseconds
+Contour (conductor) segments [cseg] = 10
+Ground Plane/Dielectric segments [dseg] = 10
+Conductivity Rect15R0 = 3e+07 siemens/meter
+Note: minimum frequency for surface current assumptions is 52772.449814 MHz.
+Mutual and Self Electrostatic Induction:
+B(Active Signal , Passive Signal) Farads/Meter
+B( ::Rect15R0 , ::Rect15R0 )=   1.3150113e-10
+
+Mutual and Self Inductance:
+L(Active Signal , Passive Signal) Henrys/Meter
+L( ::Rect15R0 , ::Rect15R0 )=   3.0536952e-07
+
+Characteristic Impedance (Ohms):
+For Signal Line ::Rect15R0= 48.189
+
+Effective Dielectric Constant:
+For Signal Line ::Rect15R0= 3.60908
+
+Propagation Velocity (meters/second):
+For Signal Line ::Rect15R0=   1.5780560e+08
+
+Propagation Delay (seconds/meter):
+For Signal Line ::Rect15R0=   6.3369108e-09
+
+Rdc:
+Rdc(Active Signal , Passive Signal) Ohms/Meter
+Rdc( ::Rect15R0 , ::Rect15R0 )=   8.3333333e+02
+
+Far-End (Forward) Cross Talk:
+FXT(Active Signal, Passive Signal)
+
+Near-End (Backward) Cross Talk:
+BXT(Active Signal, Passive Signal)
+
+NOTE: Cross talk results assume there are no reflections.

@@ -1,0 +1,74 @@
+Dump file of /tmp/tmp.xhvfrtxyMR/w10t2.5.dump
+Warning: lossTangent not used in this simulation!
+Input CouplingLength = 0.040000
+Input RiseTime = 0.000000
+Input Default Units: microns
+CouplingLength = 0.04
+Total width: 0.00011
+Conductivity Trap1T0 = 3.75e+07 siemens/meter
+Conductivity Trap1T1 = 3.75e+07 siemens/meter
+Conductivity Trap1T2 = 3.75e+07 siemens/meter
+Conductivity Trap1T3 = 3.75e+07 siemens/meter
+Conductivity Trap1T4 = 3.75e+07 siemens/meter
+---- Dielectrics ----
+  (-0.00011,1.7e-05) - (0.00022,2.6e-05)  permittivity: 3.2
+  (-0.00011,0) - (0.00022,1.7e-05)  permittivity: 3.2
+---- Conductors ----
+Trap1T4  (2.4099e-05,1.7e-05) - (0,1.95e-05)  conductivity: 3.75e+07  type: G
+ (0.0001005,1.7e-05)  (0.0001,1.95e-05)  (0.00011,1.95e-05)  (0.0001095,1.7e-05)  (0.0001005,1.7e-05) 
+Trap1T3  (2.4099e-05,1.7e-05) - (0,1.95e-05)  conductivity: 3.75e+07  type: G
+ (7.55e-05,1.7e-05)  (7.5e-05,1.95e-05)  (8.5e-05,1.95e-05)  (8.45e-05,1.7e-05)  (7.55e-05,1.7e-05) 
+Trap1T2  (2.4099e-05,1.7e-05) - (0,1.95e-05)  conductivity: 3.75e+07  type: G
+ (5.05e-05,1.7e-05)  (5e-05,1.95e-05)  (6e-05,1.95e-05)  (5.95e-05,1.7e-05)  (5.05e-05,1.7e-05) 
+Trap1T1  (2.4099e-05,1.7e-05) - (0,1.95e-05)  conductivity: 3.75e+07  type: G
+ (2.55e-05,1.7e-05)  (2.5e-05,1.95e-05)  (3.5e-05,1.95e-05)  (3.45e-05,1.7e-05)  (2.55e-05,1.7e-05) 
+Trap1T0  (2.4099e-05,1.7e-05) - (0,1.95e-05)  conductivity: 3.75e+07  type: G
+ (5e-07,1.7e-05)  (0,1.95e-05)  (1e-05,1.95e-05)  (9.5e-06,1.7e-05)  (5e-07,1.7e-05) 
+---- GroundWires ----
+filename: /tmp/tmp.xhvfrtxyMR/w10t2.5
+cntr_seg: 10  pln_seg: 27  coupling: 0.04
+risetime: 4e-10  conductivity: 5.8e+07
+half_min_dim: 1.27475e-06  grnd_planes: 2  top_grnd_thck: 1.000000
+bot_grnd_thck: 1  num_sig: 5  num_grounds: 0
+units: 0
+108076.929218 MHz is the minimum frequency for the surface current assumptions for this cross section
+92 elements and 185 nodes were generated
+  largest matrix to be inverted is 185 X 185
+Calculate LHS (assemble) matrix in free space
+calculate RHS (load) matrix for conductor 1
+Solve system of equations
+Integrate charge density
+calculate RHS (load) matrix for conductor 2
+Solve system of equations
+Integrate charge density
+calculate RHS (load) matrix for conductor 3
+Solve system of equations
+Integrate charge density
+calculate RHS (load) matrix for conductor 4
+Solve system of equations
+Integrate charge density
+calculate RHS (load) matrix for conductor 5
+Solve system of equations
+Integrate charge density
+  Asymmetry ratio for inductance matrix:
+     0.530975% (max), 0.255135% (average)
+Calculate LHS (assemble) matrix in dielectric
+calculate RHS (load) matrix for conductor 1
+Solve system of equations
+Integrate charge density
+calculate RHS (load) matrix for conductor 2
+Solve system of equations
+Integrate charge density
+calculate RHS (load) matrix for conductor 3
+Solve system of equations
+Integrate charge density
+calculate RHS (load) matrix for conductor 4
+Solve system of equations
+Integrate charge density
+calculate RHS (load) matrix for conductor 5
+Solve system of equations
+Integrate charge density
+  Asymmetry ratio for electrostatic induction matrix:
+     0.538097% (max), 0.313805% (average).
+
+MMTL is done

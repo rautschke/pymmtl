@@ -1,0 +1,44 @@
+
+2026 06 20 12:04:33 NMMTL_2DLF
+
+File = /tmp/tmp.xhvfrtxyMR/coplanar
+Number of Signal Lines  =   1
+Number of Ground Planes =   1
+Number of Ground Wires  =   2
+Coupling Length =   0.02540 meters
+Rise Time =    25.0000 picoseconds
+Contour (conductor) segments [cseg] = 10
+Ground Plane/Dielectric segments [dseg] = 10
+Conductivity condR0 = 3e+07 siemens/meter
+Note: minimum frequency for surface current assumptions is 32719.364321 MHz.
+Mutual and Self Electrostatic Induction:
+B(Active Signal , Passive Signal) Farads/Meter
+B( ::condR0 , ::condR0 )=   3.2362695e-10
+
+Mutual and Self Inductance:
+L(Active Signal , Passive Signal) Henrys/Meter
+L( ::condR0 , ::condR0 )=   3.2137205e-07
+
+Characteristic Impedance (Ohms):
+For Signal Line ::condR0= 31.5124
+
+Effective Dielectric Constant:
+For Signal Line ::condR0= 9.34747
+
+Propagation Velocity (meters/second):
+For Signal Line ::condR0=   9.8055872e+07
+
+Propagation Delay (seconds/meter):
+For Signal Line ::condR0=   1.0198267e-08
+
+Rdc:
+Rdc(Active Signal , Passive Signal) Ohms/Meter
+Rdc( ::condR0 , ::condR0 )=   5.7407522e+01
+
+Far-End (Forward) Cross Talk:
+FXT(Active Signal, Passive Signal)
+
+Near-End (Backward) Cross Talk:
+BXT(Active Signal, Passive Signal)
+
+NOTE: Cross talk results assume there are no reflections.

@@ -1,0 +1,46 @@
+Dump file of /tmp/tmp.xhvfrtxyMR/test1.dump
+Warning: lossTangent not used in this simulation!
+Input CouplingLength = 0.025400
+Input RiseTime = 0.000000
+Input Default Units: mils
+CouplingLength = 0.0254
+Total width: 0.0017272
+Conductivity Rect8R0 = 3e+07 siemens/meter
+Conductivity Rect8R1 = 3e+07 siemens/meter
+---- Dielectrics ----
+  (-0.0017272,0) - (0.0034544,0.000254)  permittivity: 4
+---- Conductors ----
+Rect8R1  (0.00127,0.000254) - (0.0017272,0.00028956)  conductivity: 3e+07  type: R
+
+Rect8R0  (0,0.000254) - (0.0004572,0.00028956)  conductivity: 3e+07  type: R
+
+---- GroundWires ----
+filename: /tmp/tmp.xhvfrtxyMR/test1
+cntr_seg: 45  pln_seg: 45  coupling: 0.0254
+risetime: 2.5e-11  conductivity: 5.8e+07
+half_min_dim: 1.778e-05  grnd_planes: 1  top_grnd_thck: 1.000000
+bot_grnd_thck: 1  num_sig: 2  num_grounds: 0
+units: 0
+668.721721 MHz is the minimum frequency for the surface current assumptions for this cross section
+132 elements and 267 nodes were generated
+  largest matrix to be inverted is 267 X 267
+Calculate LHS (assemble) matrix in free space
+calculate RHS (load) matrix for conductor 1
+Solve system of equations
+Integrate charge density
+calculate RHS (load) matrix for conductor 2
+Solve system of equations
+Integrate charge density
+  Asymmetry ratio for inductance matrix:
+     0.006427% (max), 0.006427% (average)
+Calculate LHS (assemble) matrix in dielectric
+calculate RHS (load) matrix for conductor 1
+Solve system of equations
+Integrate charge density
+calculate RHS (load) matrix for conductor 2
+Solve system of equations
+Integrate charge density
+  Asymmetry ratio for electrostatic induction matrix:
+     0.743110% (max), 0.743110% (average).
+
+MMTL is done
