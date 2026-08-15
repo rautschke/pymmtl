@@ -26,3 +26,40 @@ packages = ["pymmtl", "pymmtl.gui"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+
+[tool.pixi.workspace]
+channels = ["conda-forge"]
+platforms = ["linux-64", "osx-arm64"]
+
+[tool.pixi.dependencies]
+python = ">=3.10,<3.13"
+tk = "*"
+cmake = ">=3.5,<4"
+make = "*"
+c-compiler = "*"
+cxx-compiler = "*"
+fortran-compiler = "*"
+
+[tool.pixi.pypi-dependencies]
+pymmtl = { path = ".", editable = true }
+
+[tool.pixi.feature.iterate.pypi-dependencies]
+pymmtl = { path = ".", editable = true, extras = ["iterate"] }
+
+[tool.pixi.feature.dev.pypi-dependencies]
+pymmtl = { path = ".", editable = true, extras = ["dev"] }
+
+[tool.pixi.environments]
+default = { features = [] }
+iterate = { features = ["iterate"] }
+dev = { features = ["dev"] }
+
+[tool.pixi.tasks]
+build-solver = "cmake -S csrc -B csrc/build -DCMAKE_BUILD_TYPE=Release && cmake --build csrc/build -j"
+
+[tool.pixi.tasks.gui]
+cmd = "python -m pymmtl.gui.app"
+depends-on = ["build-solver"]
+
+[tool.pixi.feature.dev.tasks]
+test = { cmd = "pytest", depends-on = ["build-solver"] }

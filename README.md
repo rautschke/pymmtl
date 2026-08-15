@@ -21,6 +21,16 @@ pymmtl/
 
 ## Install / build
 
+### Quick start ([pixi](https://pixi.sh))
+
+```bash
+pixi install              # locked env: python, numpy, tk, cmake + compilers
+pixi run -e dev test       # builds the solver, then runs the full test suite
+pixi run gui                # launches the Tkinter GUI (builds the solver first)
+```
+
+### Manual
+
 ```bash
 # 1. build the solver binary (needs cmake + gfortran + g++)
 python -c "import pymmtl.solver as s; print(s.build())"
