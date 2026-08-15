@@ -7,8 +7,8 @@ __pycache__/
 venv/
 
 # Vendored solver build artifacts
-csrc/build/
-csrc/bin/
+csrc/bem/build/
+csrc/bem/bin/
 
 # Solver run outputs
 *.result

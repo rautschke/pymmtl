@@ -1,0 +1,4 @@
+[submodule "csrc"]
+	path = csrc
+	url = https://github.com/rautschke/mmtl.git
+	branch = cmake_builds

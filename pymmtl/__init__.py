@@ -10,8 +10,9 @@ This package reproduces the user-facing functionality of the original Tcl/Tk
 * a subprocess driver for the solver (:mod:`pymmtl.solver`),
 * parameter sweeps, impedance iteration, and HSPICE W-element export.
 
-The numerical core itself remains the proven C++/Fortran solver, vendored under
-``csrc/`` and invoked as a subprocess.
+The numerical core itself remains the proven C++/Fortran solver, vendored as a
+git submodule under ``csrc/`` (built from ``csrc/bem/``) and invoked as a
+subprocess.
 """
 
 from pymmtl.model import (

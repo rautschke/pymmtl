@@ -5,7 +5,7 @@ The numerical core is *not* reimplemented in Python; instead we write a
 ``.result`` output.  This module locates (and can build) the binary and
 orchestrates one solver run.
 
-Solver contract (verified in ``csrc/src/nmmtl.cpp``):
+Solver contract (verified in ``csrc/bem/src/nmmtl.cpp``):
     ``mmtl_bem <basename>``  -- the parser appends ``.xsctn`` to the base name
     and writes ``<basename>.result`` / ``.result_field_plot_data`` / ``.dump``
     next to it.  Conductor/dielectric segment counts come from the ``CSEG`` /
@@ -27,7 +27,7 @@ from pymmtl import csdl, results
 from pymmtl.model import CrossSection
 
 _PKG_ROOT = Path(__file__).resolve().parents[1]
-_CSRC = _PKG_ROOT / "csrc"
+_CSRC = _PKG_ROOT / "csrc" / "bem"
 _DEFAULT_BIN = _CSRC / "build" / "src" / "mmtl_bem"
 
 

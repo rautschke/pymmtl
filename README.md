@@ -7,12 +7,13 @@ Transmission Line* 2-D quasi-static boundary-element field solver.
 application — building cross-sections, running the solver, sweeping parameters,
 iterating conductor width to a target impedance, and exporting HSPICE
 W-element models — entirely in Python. The proven numerical core is **not**
-re-implemented; the vendored C++/Fortran `mmtl_bem` solver (`csrc/`) is invoked
-as a subprocess.
+re-implemented; the vendored C++/Fortran `mmtl_bem` solver (`csrc/bem/`) is
+invoked as a subprocess.
 
 ```
 pymmtl/
-  csrc/        vendored C++/Fortran BEM solver (built once with cmake + gfortran)
+  csrc/        git submodule (rautschke/mmtl, cmake_builds branch);
+               the buildable BEM solver lives under csrc/bem/
   examples/    example .xsctn cross-sections
   pymmtl/      the Python package (model, csdl I/O, results parser, solver
                driver, sweep/iterate/rlgc, and the Tkinter GUI under gui/)
@@ -20,6 +21,14 @@ pymmtl/
 ```
 
 ## Install / build
+
+`csrc/` is a git submodule — initialize it first:
+
+```bash
+git clone --recurse-submodules <this-repo-url>
+# ...or, on an existing checkout:
+git submodule update --init
+```
 
 ### Quick start ([pixi](https://pixi.sh))
 
@@ -41,7 +50,7 @@ pip install -e .            # add [dev] for pytest + scipy
 ```
 
 The solver binary is located via, in order: `$MMTL_BEM`, the vendored build at
-`csrc/build/src/mmtl_bem`, then `$PATH`.
+`csrc/bem/build/src/mmtl_bem`, then `$PATH`.
 
 ## Command line
 

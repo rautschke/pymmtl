@@ -55,7 +55,7 @@ iterate = { features = ["iterate"] }
 dev = { features = ["dev"] }
 
 [tool.pixi.tasks]
-build-solver = "cmake -S csrc -B csrc/build -DCMAKE_BUILD_TYPE=Release && cmake --build csrc/build -j"
+build-solver = "cmake -S csrc/bem -B csrc/bem/build -DCMAKE_BUILD_TYPE=Release && cmake --build csrc/bem/build -j"
 
 [tool.pixi.tasks.gui]
 cmd = "python -m pymmtl.gui.app"
